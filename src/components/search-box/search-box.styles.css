@@ -1,0 +1,18 @@
+.searchView {
+  -webkit-appearance: none;
+  border: olivedrab;
+  outline: none;
+  padding: 10px;
+  width: 150px;
+  line-height: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.inputStyle {
+  padding: 0.5cm;
+}
+.inputtext {
+  text-align: center;
+  margin: 15px;
+}
