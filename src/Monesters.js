@@ -29,10 +29,10 @@ class Monesters extends Component {
     return (
       <div className="App">
         <h1 className="headerTitle">MONOSTERS ROLODEX</h1>
-        <SearchBox
+        {/* <SearchBox
           placeholder="search monosters"
           handleChange={this.handleChange}
-        />
+        /> */}
         <CardList monosters={filteredMonosters} />
       </div>
     );
