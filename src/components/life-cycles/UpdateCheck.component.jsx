@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 
-export class App extends Component {
+export class UpdateCheck extends Component {
   constructor() {
     super();
-    console.log("This is constructor");
+    console.log("Constructor");
   }
   componentDidMount() {
     console.log("ComponentDidMount");
@@ -17,17 +17,15 @@ export class App extends Component {
   }
   shouldComponentUpdate(nextProps, nextState) {
     console.log("shouldCoponentUpdate", nextProps);
-    return true;
+    return nextProps.text !== this.props.text;
   }
   render() {
     return (
-      <div className="App">
-        <h1>Life Cycle of React</h1>
-        {console.log("This is Render")}
-        {this.props.text}
+      <div>
+        <h1>{this.props.text}</h1>
       </div>
     );
   }
 }
 
-export default App;
+export default UpdateCheck;
