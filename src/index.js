@@ -2,9 +2,11 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import Monsters from "./Monsters";
+import CssPractice from "../src/CSS in Js";
 import * as serviceWorker from "./serviceWorker";
 
-ReactDOM.render(<Monsters />, document.getElementById("root"));
+// ReactDOM.render(<Monsters />, document.getElementById("root"));
+ReactDOM.render(<CssPractice />, document.getElementById("root"));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
